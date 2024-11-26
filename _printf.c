@@ -24,11 +24,11 @@ int _printf(const char *format, ...)
 			if (!format[i])
 				return (-1);
 			if (format[i] == 'c')
-				printed_chars += handle_char(args);
+				printed_chars += _char(args);
 			else if (format[i] == 's')
-				printed_chars += handle_string(args);
+				printed_chars += _string(args);
 			else if (format[i] == 'd' || format[i] == 'i')
-				printed_chars += handle_integer(args);
+				printed_chars += _integer(args);
 			else if (format[i] == '%')
 				printed_chars += _putchar('%');
 			else
