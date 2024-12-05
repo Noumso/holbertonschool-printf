@@ -69,6 +69,10 @@ Percent:[%]
 Len:[12]
 Len:[12]
 
+Flowchart
+![FLOWCHART PRINTF FUNCTION](https://github.com/user-attachments/assets/3a665486-d5f8-48c4-a04b-770fcb39e08e)
+
+
 Authors 
 
 Noumane bouqetyb
